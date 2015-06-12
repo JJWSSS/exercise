@@ -4,10 +4,10 @@ from email.mime.text import MIMEText
 import smtplib
 
 msg = MIMEText('hello, send by Python...', 'plain', 'utf-8')
-from_addr = '1012109715@qq.com'
-password = 'jjw1010238110'
-to_addr = 'jiangjinwen999@live.com'
-smtp_server = 'smtp.qq.com'
+from_addr = input('From: ')
+password = input('Password: ')
+to_addr = input('To: ')
+smtp_server = input('SMTP server: ')
 
 server = smtplib.SMTP(smtp_server, 25)
 server.set_debuglevel(1)
