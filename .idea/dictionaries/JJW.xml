@@ -4,10 +4,12 @@
       <w>addr</w>
       <w>dirl</w>
       <w>iiiiiihh</w>
+      <w>mysqlconnector</w>
       <w>rndchar</w>
       <w>rndcolor</w>
       <w>sina</w>
       <w>smtp</w>
+      <w>tablename</w>
     </words>
   </dictionary>
 </component>
